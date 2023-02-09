@@ -12,7 +12,7 @@ KFUM_SPEJDERNE_NORMAL <- function(base_size = 11,
   palette_pri_MG <- "#DBF2E5"
 
 
-  ggplot2::theme(
+  t = ggplot2::theme(
     line = ggplot2::element_line(colour = "#1D3C34", linewidth = base_line_size, linetype = 1, lineend = "butt"),
     rect = ggplot2::element_rect(fill = "white", colour = "#1D3C34",linewidth = base_rect_size, linetype = 1),
     text = ggplot2::element_text(family = base_family, face = "plain", colour = "#1D3C34", size = base_size, lineheight = 0.9, hjust = 0.5, vjust = 0.5, angle = 0, margin = ggplot2::margin(), debug = FALSE),
